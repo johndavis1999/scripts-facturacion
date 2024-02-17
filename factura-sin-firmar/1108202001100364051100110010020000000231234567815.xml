@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<factura id="comprobante" version="1.0.0">
+    <infoTributaria>
+        <ambiente>1</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>MAURICIO RENE SANCHEZ CALUGULLIN</razonSocial>
+        <nombreComercial>VELOSAN</nombreComercial>
+        <ruc>1003640511001</ruc>
+        <claveAcceso>1108202001100364051100110010020000000231234567815</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>002</ptoEmi>
+        <secuencial>000000023</secuencial>
+        <dirMatriz>Pijal alto calle principal a 2 cuaadras de la casa comunal</dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>11/08/2020</fechaEmision>
+        <dirEstablecimiento>Pijal alto calle principal a 2 cuaadras de la casa comunal</dirEstablecimiento>
+        <obligadoContabilidad>NO</obligadoContabilidad>
+        <tipoIdentificacionComprador>07</tipoIdentificacionComprador>
+        <razonSocialComprador>CONSUMIDOR FINAL</razonSocialComprador>
+        <identificacionComprador>9999999999999</identificacionComprador>
+        <totalSinImpuestos>11.61</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>2</codigoPorcentaje>
+                <baseImponible>11.61</baseImponible>
+                <tarifa>12</tarifa>
+                <valor>1.39</valor>
+            </totalImpuesto>
+            <totalImpuesto>
+                <codigo>3</codigo>
+                <codigoPorcentaje>3660</codigoPorcentaje>
+                <baseImponible>11.61</baseImponible>
+                <valor>0.00</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0.00</propina>
+        <importeTotal>13.00</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>01</formaPago>
+                <total>13.00</total>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>int001</codigoPrincipal>
+            <codigoAuxiliar>001</codigoAuxiliar>
+            <descripcion>INTERNET HOGAR 3 MEGAS</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>11.61</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>11.61</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12</tarifa>
+                    <baseImponible>11.61</baseImponible>
+                    <valor>1.39</valor>
+                </impuesto>
+                <impuesto>
+                    <codigo>3</codigo>
+                    <codigoPorcentaje>3660</codigoPorcentaje>
+                    <tarifa>0</tarifa>
+                    <baseImponible>11.61</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+</factura>

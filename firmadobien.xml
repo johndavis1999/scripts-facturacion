@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.0.0">
+    <infoTributaria>
+        <ambiente>1</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>MAURICIO RENE SANCHEZ CALUGULLIN</razonSocial>
+        <nombreComercial>VELOSAN</nombreComercial>
+        <ruc>1003640511001</ruc>
+        <claveAcceso>0308202001100364051100110010020000000121234567810</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>002</ptoEmi>
+        <secuencial>000000012</secuencial>
+        <dirMatriz>Pijal alto calle principal a 2 cuaadras de la casa comunal</dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>03/08/2020</fechaEmision>
+        <dirEstablecimiento>Pijal alto calle principal a 2 cuaadras de la casa comunal</dirEstablecimiento>
+        <obligadoContabilidad>NO</obligadoContabilidad>
+        <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+        <razonSocialComprador>JUAN SANCHEZ INLAGO</razonSocialComprador>
+        <identificacionComprador>1001720968</identificacionComprador>
+        <direccionComprador>PIJAL ALTO CALLE PRINCIPAL</direccionComprador>
+        <totalSinImpuestos>11.61</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>2</codigoPorcentaje>
+                <baseImponible>11.61</baseImponible>
+                <tarifa>12</tarifa>
+                <valor>1.39</valor>
+            </totalImpuesto>
+            <totalImpuesto>
+                <codigo>3</codigo>
+                <codigoPorcentaje>3660</codigoPorcentaje>
+                <baseImponible>11.61</baseImponible>
+                <valor>0.00</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0.00</propina>
+        <importeTotal>13.00</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>01</formaPago>
+                <total>13.00</total>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>int001</codigoPrincipal>
+            <codigoAuxiliar>001</codigoAuxiliar>
+            <descripcion>INTERNET HOGAR 3 MEGAS</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>11.61</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>11.61</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12</tarifa>
+                    <baseImponible>11.61</baseImponible>
+                    <valor>1.39</valor>
+                </impuesto>
+                <impuesto>
+                    <codigo>3</codigo>
+                    <codigoPorcentaje>3660</codigoPorcentaje>
+                    <tarifa>0</tarifa>
+                    <baseImponible>11.61</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Dirección">PIJAL ALTO CALLE PRINCIPAL</campoAdicional>
+        <campoAdicional nombre="Email">mauricio@velosan.org</campoAdicional>
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature205006">
+<ds:SignedInfo Id="Signature-SignedInfo191416">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID831656" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature205006-SignedProperties406787">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>Cb6W/K+8vg0Af/upDu0I18vgcdo=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1779988">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>W69P7UGrlRJldsGeqjQLV9w6tyA=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-133548" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>m9H4ajdfg8M6RGczgzay7D9zeNM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue502189">
+YRYsJaEbe2Z1KoapHooZpe8whp/ozmrlNSQeH95RSzPh8R3y9KYxSTxm5PSmktgfH/P3cEtNRzve
+hFRs+qNl4FhtaVhvVf/kHvA2CIVt3RwxPZuN20hgai8/HrnTNnsPoTCTkpGQKyfYhrMbkmGGQfbb
+8yest0rz9sjQfjJrEtbNKV7oPw1uHZU26yRyRZC1nRCEBIl7b9y2LJDqROxS7eRdTgCNVA6VJe+P
+AjUwYJCXV7de8izJ0QhnlfYB9vzpkAaj0VaS1SaWD6WyTG//vsbkG5h5JdClrb2wzpSVkSwh7yz8
+mi/crdj1S1WwQZHMig8x0ZE0SNWmv3B7enwDTA==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1779988">
+<ds:X509Data>
+<ds:X509Certificate>
+MIILoTCCCYmgAwIBAgIMIDR99wUTKFPjcJDPMA0GCSqGSIb3DQEBCwUAMIGaMRYwFAYDVQQFEw0x
+NzkyNjAxMjE1MDAxMRgwFgYDVQQDDA9BTkYgRWN1YWRvciBDQTExCzAJBgNVBAYTAkVDMSMwIQYD
+VQQLDBpBTkYgQXV0b3JpZGFkIFJhaXogRWN1YWRvcjE0MDIGA1UECgwrQU5GQUMgQXV0b3JpZGFk
+IGRlIENlcnRpZmljYWNpb24gRWN1YWRvciBDQTAeFw0yMDA3MjcxMjAwNDJaFw0yMjA3MjcxMjAw
+NDJaMIIBrDEaMBgGCisGAQQBgqRCCgQMCjEwMDM2NDA1MTExKTAnBgNVBAoMIFNBTkNIRVogQ0FM
+VUdVTExJTiBNQVVSSUNJTyBSRU5FMRYwFAYDVQQqDA1NQVVSSUNJTyBSRU5FMRYwFAYDVQRhEw0x
+MDAzNjQwNTExMDAxMQswCQYDVQQGEwJFQzETMBEGA1UEBRMKMTAwMzY0MDUxMTEbMBkGA1UEBAwS
+U0FOQ0hFWiBDQUxVR1VMTElOMTQwMgYDVQQDDCsxMDAzNjQwNTExIE1BVVJJQ0lPIFJFTkUgU0FO
+Q0hFWiBDQUxVR1VMTElOMSMwIQYJKoZIhvcNAQkBFhRtYXVyaWNpb0B2ZWxvc2FuLm9yZzEQMA4G
+A1UEDAwHR0VSRU5URTEWMBQGA1UEDQwNQ2FyZ286R0VSRU5URTEQMA4GA1UECAwHT1RBVkFMTzER
+MA8GA1UEBwwISU1CQUJVUkExSjBIBgNVBAsMQUNlcnRpZmljYWRvIGRlIFJlcHJlc2VudGFudGUg
+TGVnYWwgZGUgUGVyc29uYSBKdXJpZGljYSBFQyAoRklSTUEpMIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEAuHyUeT1Ah98WO/Rps7X+M3IwDa8Ut4m0oDZA6J+TOCXgnRqb9hRwpVd8BKS0
+Folb4TetcAr9q10Vodbsth06UZ886SVKTiQ4QVknWXxLaIQ5reTA5bOrtK10pH0CVXTq8SJ/d7S3
+P9EZhmEZfHVAgrpveucCxXz/UHbuN1veGJOjA16pd8hHTLVefpVHIoQWWJniGa+NXfl+P6whu/Q3
+zTt2nyaewCHE+FUMUj8NG+Z/IYuJDxOOeRxdwW8rbzvBrL4EYK3elzfHy/zrtA2Cxvdd/V+jjiKn
+lPIsIZ8ecwscSv0gQxmEUxNFGrsgvRT4p3BR+ywE13FXPS04kOM/swIDAQABo4IF0DCCBcwwHwYD
+VR0jBBgwFoAUNJyTJrWWWDBIiFe3LtzUMecNHEswHQYDVR0OBBYEFMMVMf5tLUtYlu6PSvzQDAzG
+c+SdMIHiBgNVHREEgdowgdeBFG1hdXJpY2lvQHZlbG9zYW4ub3JnpIG+MIG7MR0wGwYKKwYBBAGB
+jxwKAQwNTUFVUklDSU8gUkVORTEXMBUGCisGAQQBgY8cCgIMB1NBTkNIRVoxGjAYBgorBgEEAYGP
+HAoDDApDQUxVR1VMTElOMRowGAYKKwYBBAGBjxwKBAwKMTAwMzY0MDUxMTE0MDIGA1UEAwwrMTAw
+MzY0MDUxMSBNQVVSSUNJTyBSRU5FIFNBTkNIRVogQ0FMVUdVTExJTjETMBEGA1UEBQwKMTAwMzY0
+MDUxMTAOBgNVHQ8BAf8EBAMCBsAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMEEGA1Ud
+HwQ6MDgwNqA0oDKGMGh0dHA6Ly93d3cuYW5mLmVzL2NybC9BTkZfRWN1YWRvcl9DQTFfU0hBMjU2
+LmNybDCCAQMGA1UdIASB+zCB+DCB3wYMKwYBBAGBjxwCBQEDMIHOMCgGCCsGAQUFBwIBFhxodHRw
+Oi8vd3d3LmFuZi5lcy9kb2N1bWVudG9zMIGhBggrBgEFBQcCAjCBlAyBkUNlcnRpZmljYWRvIGNv
+bmZvcm1lIGEgbGEgbGVnaXNsYWNpw7NuIGRlIGZpcm1hIGVsZWN0csOzbmljYS4gQW50ZXMgZGUg
+YWNlcHRhcmxvIGNvbXBydWViZSBpbnRlZ3JpZGFkLCBsaW1pdGFjaW9uZXMsIHZpZ2VuY2lhIHkg
+dXNvcyBhdXRvcml6YWRvcy4wCQYHBACL7EABATAJBgdghVQBAwUIMIGUBggrBgEFBQcBAQSBhzCB
+hDAnBggrBgEFBQcwAYYbaHR0cDovL29jc3AuYW5mLmVzL3NwYWluL0FWMFkGCCsGAQUFBzAChk1o
+dHRwOi8vd3d3LmFuZi5lcy9lcy9jZXJ0aWZpY2F0ZXNfZG93bmxvYWQvQU5GX0dsb2JhbF9Sb290
+X0NBX1NIQTI1Nl8yMDM2LmNlcjAMBgNVHRMBAf8EAjAAMBUGCisGAQQBgY8cEwIEBwwFMTgzMzIw
+KAYKKwYBBAGBjxwTAQQaDBg1MDcyMi01MDE2MTE5MTM0MjIzNzc1MzYwKAYJKwYBBAGBjxwTBBsM
+GTQ4ODIzNjc0MjUzNS00ODQ2NzYyMDA3MjkwEgYKKwYBBAGBjxwDDAQEDAJFQzAdBgorBgEEAYGP
+HAMLBA8MDTEwMDM2NDA1MTEwMDEwMAYKKwYBBAGBjxwDCgQiDCBTQU5DSEVaIENBTFVHVUxMSU4g
+TUFVUklDSU8gUkVORTBQBgorBgEEAYGPHC8BBEIMQDRlZTZjODg0Njc1MWQ2Yjk3MjQ0YzZmMDc3
+ZmE1MTYwZTZiMmZjYmM2NjIyZWJjMmI4OTRmZDE0YzgxMTdmOTgwFwYKKwYBBAGBjxwqAQQJDAdV
+SU8tMDA3MBgGCisGAQQBgY8cAwkECgwISU1CQUJVUkEwFwYKKwYBBAGBjxwDBQQJDAdHRVJFTlRF
+MBMGCisGAQQBgY8cLgEEBQwDNzMwMCIGCisGAQQBgY8cAwMEFAwSU0FOQ0hFWiBDQUxVR1VMTElO
+MB0GCisGAQQBgY8cAwIEDwwNTUFVUklDSU8gUkVORTAaBgorBgEEAYGPHAMBBAwMCjEwMDM2NDA1
+MTEwgZAGCCsGAQUFBwEDBIGDMIGAMAgGBgQAjkYBATAVBgYEAI5GAQIwCxMDRVVSAgEBAgEDMAsG
+BgQAjkYBAwIBDzAkBgYEAI5GAQUwGjAYFhJodHRwczovL2FuZi5lcy9lbi8TAmVuMBMGBgQAjkYB
+BjAJBgcEAI5GAQYBMAkGBwQAi+xJAQEwCgYIKwYBBQUHCwIwEgYKKwYBBAGBjxwTAwQEDAJFQzAN
+BgkqhkiG9w0BAQsFAAOCAgEAcfh0VJtP6blYC4ontxnFguxx8P04nweW7N9nNu5uXtxmDbEWA9lI
+wqJe8ZgQC5xDpKxuuFHKZRg8IOtMaKMhZhS0MvQ00LdrRM/6sbECSN6gp7b6f1eDIqhVSxqtlCSD
+G5dsrmJm8US3RNXMzNnWdUY7XBYwfRAPSVfGGL1vomt73tpRJjEUCN2rVmDjcAA1RqE+YUpBtpSM
+jmmg0IQG12lluowikNE1Xd0rt1Lwed3eZoqgUwRmHFTt4g1LMVWyH8t7kyv7mgOubew1Jpp/bahv
+/4djTwFtjazj+KaDg4yLt1vGn9J/aqSRj3+Jd/aAZo+7Oh5y6ntcY1XH7oNfrHdmJRxJwCkNNsJN
+aYXj+qQSEADm0/Q9+9GVLWHsxZ5uPe0ZoUsPhPN+Hoi2OgnnOuLC2Qi542mzIR8khJDiW1CJTG5P
+SigeXwW+ChgaMEiBLbmZ5nLnXj3MP3ptmhnotzF/MGnksvr3xQm1vZbXflMBTOSdon452sEnK00n
+VFiaVVepk1ZiCzJao30F4kuI115fxISAbJaALEgSXtzMn0LVP1utXjY5rT1BnWLcvUzzqZlEha75
+y70LA/MF3aC0sd3/azDxZ8mpiXY5PTBd5GWvj/UpgAAighguqMTDzP1xIKD9PXY4P8ZjXhY1AU5o
+qZa90hvx9mr6h+yALr44JHQ=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+uHyUeT1Ah98WO/Rps7X+M3IwDa8Ut4m0oDZA6J+TOCXgnRqb9hRwpVd8BKS0Folb4TetcAr9q10V
+odbsth06UZ886SVKTiQ4QVknWXxLaIQ5reTA5bOrtK10pH0CVXTq8SJ/d7S3P9EZhmEZfHVAgrpv
+eucCxXz/UHbuN1veGJOjA16pd8hHTLVefpVHIoQWWJniGa+NXfl+P6whu/Q3zTt2nyaewCHE+FUM
+Uj8NG+Z/IYuJDxOOeRxdwW8rbzvBrL4EYK3elzfHy/zrtA2Cxvdd/V+jjiKnlPIsIZ8ecwscSv0g
+QxmEUxNFGrsgvRT4p3BR+ywE13FXPS04kOM/sw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature205006-Object596102"><etsi:QualifyingProperties Target="#Signature205006"><etsi:SignedProperties Id="Signature205006-SignedProperties406787"><etsi:SignedSignatureProperties><etsi:SigningTime>2020-08-03T12:19:59-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>bxNJWaRN/7xB8JxSBi8U62BAPqE=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>O=ANFAC Autoridad de Certificacion Ecuador CA,OU=ANF Autoridad Raiz Ecuador,C=EC,CN=ANF Ecuador CA1,2.5.4.5=#130d31373932363031323135303031</ds:X509IssuerName><ds:X509SerialNumber>9966979309424828163699019983</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-133548"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

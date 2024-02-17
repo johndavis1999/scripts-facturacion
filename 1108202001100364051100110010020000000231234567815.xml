@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.0.0">
+    <infoTributaria>
+        <ambiente>1</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>MAURICIO RENE SANCHEZ CALUGULLIN</razonSocial>
+        <nombreComercial>VELOSAN</nombreComercial>
+        <ruc>1003640511001</ruc>
+        <claveAcceso>0308202001100364051100110010020000000121234567810</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>002</ptoEmi>
+        <secuencial>000000012</secuencial>
+        <dirMatriz>Pijal alto calle principal a 2 cuaadras de la casa comunal</dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>03/08/2020</fechaEmision>
+        <dirEstablecimiento>Pijal alto calle principal a 2 cuaadras de la casa comunal</dirEstablecimiento>
+        <obligadoContabilidad>NO</obligadoContabilidad>
+        <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+        <razonSocialComprador>JUAN SANCHEZ INLAGO</razonSocialComprador>
+        <identificacionComprador>1001720968</identificacionComprador>
+        <direccionComprador>PIJAL ALTO CALLE PRINCIPAL</direccionComprador>
+        <totalSinImpuestos>11.61</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>2</codigoPorcentaje>
+                <baseImponible>11.61</baseImponible>
+                <tarifa>12</tarifa>
+                <valor>1.39</valor>
+            </totalImpuesto>
+            <totalImpuesto>
+                <codigo>3</codigo>
+                <codigoPorcentaje>3660</codigoPorcentaje>
+                <baseImponible>11.61</baseImponible>
+                <valor>0.00</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0.00</propina>
+        <importeTotal>13.00</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>01</formaPago>
+                <total>13.00</total>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>int001</codigoPrincipal>
+            <codigoAuxiliar>001</codigoAuxiliar>
+            <descripcion>INTERNET HOGAR 3 MEGAS</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>11.61</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>11.61</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12</tarifa>
+                    <baseImponible>11.61</baseImponible>
+                    <valor>1.39</valor>
+                </impuesto>
+                <impuesto>
+                    <codigo>3</codigo>
+                    <codigoPorcentaje>3660</codigoPorcentaje>
+                    <tarifa>0</tarifa>
+                    <baseImponible>11.61</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Dirección">PIJAL ALTO CALLE PRINCIPAL</campoAdicional>
+        <campoAdicional nombre="Email">mauricio@velosan.org</campoAdicional>
+    </infoAdicional>
+</factura>
